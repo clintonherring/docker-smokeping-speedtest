@@ -13,9 +13,6 @@ RUN apk add python3 --no-cache \
     &&  curl -L -s -S -o /usr/share/smokeping/Smokeping/probes/speedtestcli.pm https://github.com/mad-ady/smokeping-speedtest/raw/master/speedtestcli.pm \
     && curl -L -s -S -o /usr/local/bin/speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py \
     && chmod a+x /usr/local/bin/speedtest-cli \
-    && curl -L -s -S -o ookla-speedtest-${OOKLA_SPEEDTEST_VERSION}-x86_64-linux.tgz https://install.speedtest.net/app/cli/ookla-speedtest-${OOKLA_SPEEDTEST_VERSION}-linux-x86_64.tgz \
-    && tar -zxvf ookla-speedtest-${OOKLA_SPEEDTEST_VERSION}-x86_64-linux.tgz -C /usr/local/bin/ \
-    && chmod a+x /usr/local/bin/speedtest \
     && cat /speedtest-conf/Probes >> /defaults/smoke-conf/Probes \
     && cat /speedtest-conf/Targets >> /defaults/smoke-conf/Targets
 
