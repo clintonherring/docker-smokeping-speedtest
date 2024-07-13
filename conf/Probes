@@ -14,19 +14,3 @@ measurement = download
 
 ++ speedtest-upload
 measurement = upload
-
-# Ookla official
-+ speedtestcli
-binary = /usr/local/bin/speedtest
-timeout = 300
-forks = 1
-step = 3600
-offset = random
-pings = 3
-# extraargs = --accept-license
-
-++ speedtestcli-download
-measurement = download
-
-++ speedtestcli-upload
-measurement = upload
