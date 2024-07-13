@@ -3,36 +3,20 @@
 menu = Speed Tests
 title = Speed Tests
 
-++ Download-ookla
+++ Download-sivel
 menu = Download
 title = Download
-probe = speedtestcli-download
+probe = speedtest-download
 measurement = download
 host = dummy.com
 #server = 1737
 
-++ Upload-ookla
+++ Upload-sivel
 menu = Upload
 title = Upload
-probe = speedtestcli-upload
+probe = speedtest-upload
 measurement = upload
 host = dummy.com
 #server = 1737
-
-# ++ Download-sivel
-# menu = Download
-# title = Download
-# probe = speedtest-download
-# measurement = download
-# host = dummy.com
-# #server = 1737
-
-# ++ Upload-sivel
-# menu = Upload
-# title = Upload
-# probe = speedtest-upload
-# measurement = upload
-# host = dummy.com
-# #server = 1737
 
 
