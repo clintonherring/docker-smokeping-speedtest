@@ -27,7 +27,7 @@ docker run \
   -v /path/to/smokeping/config:/config \
   -v /path/to/smokeping/data:/data \
   --restart unless-stopped \
-  jwigley/smokeping-speedtest
+  clintonherring/smokeping-speedtest
 ```
 
 The default speedtest configuration will poll downloads/uploads every hour to your closest speedtest.net server.
