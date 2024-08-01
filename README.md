@@ -57,7 +57,7 @@ docker run \
   -v /path/to/smokeping/config:/config \
   -v /path/to/smokeping/data:/data \
   --restart unless-stopped \
-  jwigley/smokeping-speedtest
+  clintonherring/smokeping-speedtest-influx
 ```
 
 ## credits
