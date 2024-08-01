@@ -17,7 +17,7 @@ RUN apk add python3 --no-cache \
     && cat /speedtest-conf/Targets >> /defaults/smoke-conf/Targets
 
 # Install dependencies for influxdb
-RUN apk add perl perl-dev perl-app-cpanminus build-base apkbuild-cpan cpanm InfluxDB::HTTP InfluxDB::LineProtocol Object::Result JSON::MaybeXS module --force
+# RUN apk add perl perl-dev perl-app-cpanminus build-base apkbuild-cpan cpanm InfluxDB::HTTP InfluxDB::LineProtocol Object::Result JSON::MaybeXS module --force
 
 # Build image with tests
 FROM alpine:latest AS test
