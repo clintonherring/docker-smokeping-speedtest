@@ -27,7 +27,7 @@ docker run \
   -v /path/to/smokeping/config:/config \
   -v /path/to/smokeping/data:/data \
   --restart unless-stopped \
-  clintonherring/smokeping-speedtest
+  clintonherring/smokeping-speedtest-influx
 ```
 
 The default speedtest configuration will poll downloads/uploads every hour to your closest speedtest.net server.
