@@ -1,4 +1,6 @@
 # docker-smokeping-speedtest
+the last part takes an insane amount of time to run, just wait for it.
+
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jwigley/docker-smokeping-speedtest/main.yml?branch=main&label=build%20%28main%29)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jwigley/docker-smokeping-speedtest/daily.yml?branch=main&label=build%20%28nightly%29)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/jwigley/smokeping-speedtest/latest)
